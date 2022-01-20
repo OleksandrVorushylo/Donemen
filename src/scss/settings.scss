@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  margin: 0;
+  max-width: 100%;
+}
+li {
+  list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+button, input, a {
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+html {
+  // overflow-x: hidden;
+  height: 100%;
+}
+body {
+  font-family: 'BentonSans', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  overflow-x: hidden;
+  position: relative;
+  // overflow-y: hidden;
+}
+.container {
+  width: 91.46667%;
+  max-width: 361px;
+  margin: auto;
+  height: 100%;
+}
+.wrap {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+
+
+
+
+

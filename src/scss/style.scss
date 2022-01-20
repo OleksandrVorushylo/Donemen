@@ -1,9 +1,8 @@
-@import "fonts";
+@import "normalize";
+@import "variables";
 
-body {
-	font-family: CormorantUpright;
-	font-size: 50px;
-	span {
-		color: red;
-	}
-}
+@import "settings";
+@import "blocks/background";
+@import "blocks/form";
+
+
