@@ -2,4 +2,85 @@
   width: 59.375vw;
   height: 100%;
   background: linear-gradient(193.38deg, #0053DB 1.63%, rgba(77, 144, 255, 0.99) 90.39%);
+
+  position: relative;
+  padding: 28px 34px;
+  display: flex;
+
+  &__logo {
+    display: flex;
+    height: 50px;
+    //width: 152px;
+  }
+  &__logo img {
+    width: 158px;
+    height: 47px;
+  }
+
+  &__center {
+    position: absolute;
+    top: 27.66667vh;
+    left: 50%;
+    transform: translate(-53.3%, 0);
+    width: 37.36111vw;
+  }
+  &__group {
+    position: absolute;
+    width: 19.07251%;
+    max-width: 163.07px;
+    &--top {
+      top: 5px;
+      right: 20.93px;
+    }
+    &--bottom {
+      left: 5px;
+      bottom: 7.77778vh;
+      transform: rotate(180deg);
+    }
+  }
+  &__circle-top {
+    position: absolute;
+    top: 94px;
+    right: 40.5848%;
+    width: 60px;
+  }
+  &__circle-left {
+    position: absolute;
+    width: 45px;
+    left: 52px;
+    top: 34.11111vh;
+  }
+  &__circle-right {
+    position: absolute;
+    height: 18px;
+    right: 12.16374%;
+    bottom: 37.4444vh;
+  }
+  &__circle-2-top {
+    position: absolute;
+    left: 20.70175%;
+    top: 16.77778vh;
+    width: 25px;
+  }
+  &__circle-2-bottom {
+    position: absolute;
+    width: 31px;
+    bottom: 5.88889vh;
+    right: 33.45029%;
+  }
+  &__circle-3-top {
+    position: absolute;
+    right: 7px;
+    top: 25.55556vh;
+    height: 35px;
+    width: 35px;
+  }
+  &__circle-3-bottom {
+    position: absolute;
+    width: 42px;
+    bottom: 19.66667vh;
+    right: 14.67836%;
+
+  }
+
 }

@@ -21,7 +21,8 @@ html {
   height: 100%;
 }
 body {
-  font-family: 'BentonSans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color: $text-color;
   font-weight: 400;
   font-size: 22px;
   font-style: normal;
@@ -40,6 +41,7 @@ body {
 .wrap {
   width: 100vw;
   height: 100vh;
+  min-height: 800px;
   display: flex;
 }
 
